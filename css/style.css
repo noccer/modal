@@ -1,69 +1,69 @@
 Modal
 Width: 400px
 Padding: 40px; 			/* padding around items */
-Border Radius			3px
-Margin: 30px						/* y-margin between items */
-Background Colour		#FFF
+Border Radius:3px;
+Margin: 30px;						/* y-margin between items */
+Background Colour: #FFF;
 
 Header
-Margin: 20px						/* x-margin between items */
+Margin: 20px;						/* x-margin between items */
 
 Close Button
-Width: 30px
-Height: 30px
-Border: 1px solid #ddd
-Border Radius			3px
-Background Colour		#f7f7f7
-Font Family: Material Icons
-Icon: 	“close”
-Font Size: 14px
-Font Colour: #666
+Width: 30px;
+Height: 30px;
+Border: 1px solid #ddd;
+Border Radius: 3px;
+Background Colour: #f7f7f7;
+Font Family: Material Icons;
+Icon: “close”;
+Font Size: 14px;
+Font Colour: #666;
 
 Title
-Font Family: Open Sans
-Font Weight: Semibold
-Font Size: 16px
-Font Colour: #004fbd
+Font Family: Open Sans;
+Font Weight: Semibold;
+Font Size: 16px;
+Font Colour: #004fbd;
 
 
 
 
 Priority
-Padding: 10px						/* y-padding around items */
-Border: 1px solid #ddd				/* bottom border */
-Margin: 10px						/* x-margin between items */
+Padding: 10px;						/* y-padding around items */
+Border: 1px solid #ddd;				/* bottom border */
+Margin: 10px;						/* x-margin between items */
 
 Checkbox
-Width: 20px
-Height: 20px
-Border: 1px solid rgba(0,0,0,0.2)
-Border Radius: 2px
-Box Shadow: 0 1px 2px rgba(0,0,0,0.1)
-Background Colour		#eee
+Width: 20px;
+Height: 20px;
+Border: 1px solid rgba(0,0,0,0.2);
+Border Radius: 2px;
+Box Shadow: 0 1px 2px rgba(0,0,0,0.1);
+Background Colour:#eee;
  - Checked
-Background Colour		#056bfa
-Background Image		check.svg
-Background Size		14px * 10px
+Background Colour: #056bfa;
+Background Image: './img/check.svg'; /*NOTE THIS*/
+Background Size: 14px * 10px /*NOTE THIS*/
  - Disabled
-Border: none
-Background Colour		#ccc
-Box Shadow: none
+Border: none;
+Background Colour: #ccc;
+Box Shadow: none;
 
 Label
-Font Family: Open Sans
-Font Weight: Regular
-Font Size: 12px
-Font Colour: #80808
+Font Family: Open Sans;
+Font Weight: Regular;
+Font Size: 12px;
+Font Colour: #80808;
  - Checked
-Font Colour: #666
+Font Colour: #666;
  - Disabled
-Font Colour: #999
+Font Colour: #999;
 
 Drag Handle
-Font Family: Material Icons
-Icon: 	“drag_handle”
-Font Size: 16px
-Font Colour: #ccc
+Font Family: Material Icons;
+Icon: “drag_handle”;
+Font Size: 16px;
+Font Colour: #ccc;
 
 
 
