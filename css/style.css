@@ -1,9 +1,10 @@
-Modal
-Width: 400px
-Padding: 40px; 			/* padding around items */
-Border Radius:3px;
-Margin: 30px;						/* y-margin between items */
-Background Colour: #FFF;
+#modal {
+  width: 400px;
+  padding: 40px; /* padding around items */
+  border-radius: 3px;
+  margin: 30px 0; /* y-margin between items */
+  background-color: #FFF;
+}
 
 Header
 Margin: 20px;						/* x-margin between items */
