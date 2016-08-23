@@ -1,14 +1,12 @@
-/*
-
 Modal
 Width				400px
-Padding				40px						(padding around items)
+Padding				40px						/* padding around items */
 Border Radius			3px
-Margin				30px						(y-margin between items)
+Margin				30px						/* y-margin between items */
 Background Colour		#FFF
 
 Header
-Margin				20px						(x-margin between items)
+Margin				20px						/* x-margin between items */
 
 Close Button
 Width				30px
@@ -31,9 +29,9 @@ Font Colour			#004fbd
 
 
 Priority
-Padding				10px						(y-padding around items)
-Border				1px solid #ddd				(bottom border)
-Margin				10px						(x-margin between items)
+Padding				10px						/* y-padding around items */
+Border				1px solid #ddd				/* bottom border */
+Margin				10px						/* x-margin between items */
 
 Checkbox
 Width				20px
