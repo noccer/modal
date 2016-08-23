@@ -6,19 +6,21 @@
   background-color: #FFF;
 }
 
-Header
-Margin: 20px;						/* x-margin between items */
+#header {
+  margin: 0 20px; /* x-margin between items */
+}
 
-Close Button
-Width: 30px;
-Height: 30px;
-Border: 1px solid #ddd;
-Border Radius: 3px;
-Background Colour: #f7f7f7;
-Font Family: Material Icons;
-Icon: “close”;
-Font Size: 14px;
-Font Colour: #666;
+#close-button {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  background-color: #f7f7f7;
+  font-family: 'Material Icons';
+  icon: “close”; /*NOTE THIS*/
+  font-size: 14px;
+  color: #666;
+}
 
 Title
 Font Family: Open Sans;
