@@ -35,21 +35,24 @@
   margin: 10px; /* x-margin between items */
 }
 
-Checkbox
-Width: 20px;
-Height: 20px;
-Border: 1px solid rgba(0,0,0,0.2);
-Border Radius: 2px;
-Box Shadow: 0 1px 2px rgba(0,0,0,0.1);
-Background Colour:#eee;
- - Checked
-Background Colour: #056bfa;
-Background Image: './img/check.svg'; /*NOTE THIS*/
-Background Size: 14px * 10px /*NOTE THIS*/
- - Disabled
-Border: none;
-Background Colour: #ccc;
-Box Shadow: none;
+.checkbox {
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  background-color: #eee;
+}
+.checked {
+  background-color: #056bfa;
+  background-image: './img/check.svg'; /*NOTE THIS*/
+  background-size: 14px * 10px; /*NOTE THIS*/
+}
+.disabled {
+  border: none;
+  background-color: #ccc;
+  box-shadow: none;
+}
 
 Label
 Font Family: Open Sans;
