@@ -16,17 +16,19 @@
   border: 1px solid #ddd;
   border-radius: 3px;
   background-color: #f7f7f7;
-  font-family: 'Material Icons';
-  icon: “close”; /*NOTE THIS*/
+  font-family: 'Material Icons'; /*NOTE THIS*/
+  icon: 'mdi-close'; /*NOTE THIS*/
   font-size: 14px;
   color: #666;
+  display: inline-block;
 }
 
 #title {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-weight: Semibold;
   font-size: 16px;
   color: #004fbd;
+  display: inline-block;
 }
 
 .priority {
