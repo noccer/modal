@@ -22,19 +22,18 @@
   color: #666;
 }
 
-Title
-Font Family: Open Sans;
-Font Weight: Semibold;
-Font Size: 16px;
-Font Colour: #004fbd;
+#title {
+  font-family: 'Open Sans';
+  font-weight: Semibold;
+  font-size: 16px;
+  color: #004fbd;
+}
 
-
-
-
-Priority
-Padding: 10px;						/* y-padding around items */
-Border: 1px solid #ddd;				/* bottom border */
-Margin: 10px;						/* x-margin between items */
+.priority {
+  padding: 10px; /* y-padding around items */
+  border: 1px solid #ddd; /* bottom border */
+  margin: 10px; /* x-margin between items */
+}
 
 Checkbox
 Width: 20px;
