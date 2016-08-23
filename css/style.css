@@ -60,10 +60,10 @@ font-weight: Regular;
 font-size: 12px;
 color: #80808;
 }
-.checked-label {
+.active-label {
   color: #666;
 }
-.disabled-label {
+.inactive-label {
   color: #999;
 }
 
