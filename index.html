@@ -12,13 +12,18 @@
   <script src="js/app.js" charset="utf-8"></script>
 </head>
 
-<body>
+<body ng-controller="AutoSchedulerController as priorities">
   <div id="modal">
     <div id="header">
       <div id="close-button">
 
       </div>
       <p id="title">Automatic Scheduler Priorities</p>
+    </div> <!-- end header -->
+    <div>  <!-- main priorities body -->
+      <div ng-repeat="priority in priorities.all">
+        <p>{{ priority.title }}</p>
+      </div>
     </div>
   </div> <!-- end modal-->
 </body>
