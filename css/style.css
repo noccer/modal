@@ -67,22 +67,20 @@ color: #80808;
   color: #999;
 }
 
-Drag Handle
-Font Family: Material Icons;
-Icon: “drag_handle”;
-Font Size: 16px;
-Font Colour: #ccc;
+.drag_handle {
+  font-family: 'Material Icons'; /*NOTE THIS*/
+  icon: 'drag_handle'; /*NOTE THIS*/
+  font-size: 16px;
+  color: #ccc;
+}
 
-
-
-
-“Run” Button
-Height: 40px
-Padding: ~13px
-Border Radius: 3px
-Background Colour		#01a42d
-Font Family: Open Sans
-Font Weight: Semibold
-Font Size: 14px
-Font Colour: #FFF
-*/
+.run { /*run button*/
+  height: 40px;
+  padding: 13px;
+  border-radius: 3px;
+  background-color: #01a42d;
+  font-family: 'Open Sans';
+  font-weight: Semibold;
+  font-size: 14px;
+  color: #FFF;
+}
