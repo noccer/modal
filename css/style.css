@@ -76,13 +76,23 @@ color: #80808;
   color: #ccc;
 }
 
-.run { /*run button*/
+#modal-footer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+button.run { /*run button*/
   height: 40px;
   padding: 13px;
   border-radius: 3px;
+  border: none;
   background-color: #01a42d;
   font-family: 'Open Sans';
-  font-weight: Semibold;
+  font-weight: bold;
   font-size: 14px;
   color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
