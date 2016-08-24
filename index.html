@@ -7,25 +7,52 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link href="./css/materialdesignicons.css" media="all" rel="stylesheet" type="text/css" />
   <link href="./css/style.css" media="all" rel="stylesheet" type="text/css" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.min.js" charset="utf-8"></script>
-  <script src="js/AutoSchedulerController.js" charset="utf-8"></script>
-  <script src="js/app.js" charset="utf-8"></script>
+  <script src="./js/angular.min.js" charset="utf-8"></script>
+  <script src="./js/AutoSchedulerController.js" charset="utf-8"></script>
+  <script src="./js/app.js" charset="utf-8"></script>
 </head>
 
 <body ng-controller="AutoSchedulerController as priorities">
   <div id="modal">
-    <div id="header">
-      <div id="close-button">
-
+    <div id="main-body">
+      <div id="header">
+        <div id="close-button">
+        </div>
+        <h1 id="title">Automatic Scheduler Priorities</h1>
       </div>
-      <p id="title">Automatic Scheduler Priorities</p>
-    </div> <!-- end header -->
-    <div>  <!-- main priorities body -->
-      <div ng-repeat="priority in priorities.all">
-        <p>{{ priority.title }}</p>
+      <!-- end header -->
+      <div id="main">
+
+        <div id="modal-footer">
+          <button class="run">
+            Run
+          </button>
+        </div>
+        <!--
+      .checkbox
+      .checked-checkbox
+      .disabled-checkbox
+      .label
+      .active-label
+      .drag_handle
+      .run
+      #modal
+      #header
+      #close-button
+      #title -->
+
+        <!-- <ul>
+        <li ng-repeat="priority in priorities.all">
+          <input type="checkbox" class="checkbox"/>
+          <p ng-class="{ title: priority.checked == true}">{{ priority.title }}</p>
+          <div class="drag_handle" ng-show="">.</div>
+        </li>
+      </ul> -->
       </div>
     </div>
-  </div> <!-- end modal-->
+    <!-- end #main-body -->
+  </div>
+  <!-- end modal-->
 </body>
 
 </html>
