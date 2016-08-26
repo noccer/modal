@@ -93,6 +93,7 @@ input[type='checkbox']:disabled + label:before {
   border: none;
   background-color: #ccc;
   box-shadow: none;
+  cursor:default;
 }
 
 .inactive-label {
