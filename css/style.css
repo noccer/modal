@@ -80,6 +80,7 @@ input[type='checkbox'] + label:before {
   text-align: center;
   overflow: hidden;
   vertical-align: -35%;
+  cursor: pointer;
 }
 input[type='checkbox']:checked + label:before {
   background-color: #056bfa;
@@ -126,8 +127,7 @@ i.drag-handle {
   padding: 10px;
 }
 
-button.run { /*run button*/
-  height: 40px;
+a.run { /*run button*/
   padding: 13px;
   margin-top: 30px;
   border-radius: 3px;
@@ -139,4 +139,6 @@ button.run { /*run button*/
   color: #FFF;
   vertical-align: middle;
   text-align: center;
+  cursor: pointer;
+  text-decoration: none;
 }
