@@ -26,7 +26,7 @@
     <div id="main">
       <ul>
         <li ng-repeat="priority in priorities.all">
-          <input type="checkbox" id="priority {{ $index }}" ng-Disabled="priority.active" />
+          <input type="checkbox" id="priority {{ $index }}" ng-Disabled="priority.inactive" />
           <label for="priority {{ $index }}">{{ priority.title }}</label>
           <i ng-if="priority.reorder" class="material-icons drag-handle">drag_handle</i>
         </li>
