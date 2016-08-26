@@ -14,44 +14,40 @@
 </head>
 
 <body ng-controller="AutoSchedulerController as priorities">
-  <div id="modal">
-    <div id="header">
-      <a class="close-button">
-        <i class="material-icons">close</i>
-      </a>
-      <h1 class="title">Automatic Scheduler Priorities</h1>
-    </div>
-    <!-- end header -->
+  <div id="modal-parent">
+    <div id="modal">
+      <div id="header">
+        <a class="close-button">
+          <i class="material-icons">close</i>
+        </a>
+        <h1 class="title">Automatic Scheduler Priorities</h1>
+      </div>
+      <!-- end header -->
 
-    <div id="main">
-      <ul>
-        <li ng-repeat="priority in priorities.all">
-          <input type="checkbox" id="priority {{ $index }}" ng-Disabled="priority.inactive" ng-model="priority.checked" />
-          <label for="priority {{ $index }}">{{ priority.title }}</label>
-          <i ng-if="priority.reorder" class="material-icons drag-handle">drag_handle</i>
-        </li>
-      </ul>
-    </div>
-    <!-- end #main -->
-    <div id="modal-footer">
-      <a class="run" href="#">
+      <div id="main">
+        <ul>
+          <li ng-repeat="priority in priorities.all">
+            <input type="checkbox" id="priority {{ $index }}" ng-Disabled="priority.inactive" ng-model="priority.checked" />
+            <label for="priority {{ $index }}">{{ priority.title }}</label>
+            <i ng-if="priority.reorder" class="material-icons drag-handle">drag_handle</i>
+          </li>
+        </ul>
+      </div>
+      <!-- end #main -->
+      <div id="modal-footer">
+        <a class="run" href="#">
         Run
       </a>
+      </div>
+      <!-- end #modal-footer -->
+
     </div>
-    <!-- end #modal-footer -->
-
-
-    <!-- <ul>
-        <li ng-repeat="priority in priorities.all">
-          <input type="checkbox" class="checkbox"/>
-          <p ng-class="{ title: priority.checked == true}">{{ priority.title }}</p>
-          <div class="drag_handle" ng-show="">.</div>
-        </li>
-      </ul> -->
+    <!-- end modal-->
   </div>
-  <!-- end modal-->
-  <div id="push-me">
-    <button>Push Me</button>
+  <!-- end modal parent -->
+  <div id="push-div">
+    <a id="push-me">Push Me</a>
   </div>
 </body>
+<script src="./js/modal.js" charset="utf-8"></script>
 </html>
