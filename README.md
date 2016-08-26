@@ -1,15 +1,15 @@
 ## Niall Rotageek Code Test
 
-Recreate this:
+Live link:
+[Niall Modal](https://noccer.github.io/modal/)
+
+Task was to recreate this:
 
 ![AutoScheduler](./img/autoscheduler-priorities.jpg)
 
 My version:
 
 ![Niall AutoScheduler](./img/niall-autoscheduler-priorities.png)
-
-Live link:
-[Niall Modal](https://noccer.github.io/modal/)
 
 ## Future Improvements:
 
