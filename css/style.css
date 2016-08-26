@@ -129,6 +129,7 @@ i.drag-handle {
 button.run { /*run button*/
   height: 40px;
   padding: 13px;
+  margin-top: 30px;
   border-radius: 3px;
   border: none;
   background-color: #01a42d;
@@ -136,7 +137,6 @@ button.run { /*run button*/
   font-weight: bold;
   font-size: 14px;
   color: #FFF;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  vertical-align: middle;
+  text-align: center;
 }
