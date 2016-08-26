@@ -25,15 +25,14 @@
 
     <div id="main">
       <ul>
-        <li>
-          <input type="checkbox" id="c1" class="" />
-          <label for="c1">Contracted Hours</label>
-          <i class="material-icons drag-handle">drag_handle</i>
+        <li ng-repeat="priority in priorities.all">
+          <input type="checkbox" id="priority {{ $index }}" class="" />
+          <label for="priority {{ $index }}">{{ priority.title }}</label>
+          <i ng-if="priority.reorder" class="material-icons drag-handle">drag_handle</i>
         </li>
       </ul>
     </div>
     <!-- end #main -->
-
     <div id="modal-footer">
       <button class="run">
         Run
