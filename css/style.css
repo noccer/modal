@@ -17,7 +17,7 @@ body {
 
 /* top of modal */
 #header * {
-  margin: 0 20px; /* x-margin between items */
+  /*margin: 0 20px; /* x-margin between items */
   display: inline-block;
   vertical-align: middle;
 }
@@ -31,11 +31,16 @@ a.close-button {
   font-size: 14px;
   color: #666;
 }
+a.close-button i {
+  margin: 0 0 0 2px;
+  cursor: pointer;
+}
 .title {
   font-family: 'Open Sans', sans-serif;
   font-weight: Semibold;
   font-size: 16px;
   color: #004fbd;
+  margin-left: 10px;
 }
 
 ul {
@@ -99,6 +104,7 @@ i.drag-handle {
   /*icon: 'drag_handle'; /*NOTE THIS*/*/
   font-size: 16px;
   color: #ccc;
+  cursor: all-scroll;
 }
 
 #modal-footer {
